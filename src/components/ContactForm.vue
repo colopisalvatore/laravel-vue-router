@@ -2,7 +2,7 @@
 <section class="contact_me py-5">
     <div class="inner-wrapper">
         <div class="container text-center">
-            <h2 class="text-uppercase">contact me</h2>
+            <h2 class="text-uppercase">Contatti</h2>
             <div v-if="success" class="alert alert-success">Messaggio inviato con successo</div>
             <div class="row">
                 <form class="col-12 text-start" @submit.prevent="sendForm()">
